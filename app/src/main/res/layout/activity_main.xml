@@ -16,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
    <Button
+       android:onClick="sendMessage"
        android:id="@+id/sendBtn"
        android:layout_width="wrap_content"
        android:layout_weight="2"
